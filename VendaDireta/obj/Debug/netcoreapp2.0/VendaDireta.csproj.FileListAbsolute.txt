@@ -1,0 +1,11 @@
+C:\Users\mauro\OneDrive\Documentos\Fatec\ASP.NET\VendaDiretaSolution_V1\VendaDireta\bin\Debug\netcoreapp2.0\VendaDireta.deps.json
+C:\Users\mauro\OneDrive\Documentos\Fatec\ASP.NET\VendaDiretaSolution_V1\VendaDireta\bin\Debug\netcoreapp2.0\VendaDireta.runtimeconfig.json
+C:\Users\mauro\OneDrive\Documentos\Fatec\ASP.NET\VendaDiretaSolution_V1\VendaDireta\bin\Debug\netcoreapp2.0\VendaDireta.runtimeconfig.dev.json
+C:\Users\mauro\OneDrive\Documentos\Fatec\ASP.NET\VendaDiretaSolution_V1\VendaDireta\bin\Debug\netcoreapp2.0\VendaDireta.dll
+C:\Users\mauro\OneDrive\Documentos\Fatec\ASP.NET\VendaDiretaSolution_V1\VendaDireta\bin\Debug\netcoreapp2.0\VendaDireta.pdb
+C:\Users\mauro\OneDrive\Documentos\Fatec\ASP.NET\VendaDiretaSolution_V1\VendaDireta\obj\Debug\netcoreapp2.0\VendaDireta.csproj.CoreCompileInputs.cache
+C:\Users\mauro\OneDrive\Documentos\Fatec\ASP.NET\VendaDiretaSolution_V1\VendaDireta\obj\Debug\netcoreapp2.0\VendaDireta.AssemblyInfoInputs.cache
+C:\Users\mauro\OneDrive\Documentos\Fatec\ASP.NET\VendaDiretaSolution_V1\VendaDireta\obj\Debug\netcoreapp2.0\VendaDireta.AssemblyInfo.cs
+C:\Users\mauro\OneDrive\Documentos\Fatec\ASP.NET\VendaDiretaSolution_V1\VendaDireta\obj\Debug\netcoreapp2.0\VendaDireta.dll
+C:\Users\mauro\OneDrive\Documentos\Fatec\ASP.NET\VendaDiretaSolution_V1\VendaDireta\obj\Debug\netcoreapp2.0\VendaDireta.pdb
+C:\Users\mauro\OneDrive\Documentos\Fatec\ASP.NET\VendaDiretaSolution_V1\VendaDireta\obj\Debug\netcoreapp2.0\VendaDireta.csprojAssemblyReference.cache

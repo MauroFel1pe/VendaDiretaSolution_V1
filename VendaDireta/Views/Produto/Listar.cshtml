@@ -1,0 +1,62 @@
+﻿@model IEnumerable<VendaDireta.Models.Produto>
+
+@{
+    Layout = null;
+
+    VendaDireta.Models.Usuario DadosUsuario = (VendaDireta.Models.Usuario)ViewData["DadosUsuario"];
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Venda Direta</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" asp-action="Listar">Venda Direta</a>
+        <a asp-action="Sair" class="my-2">Sair</a>
+    </nav>
+
+    <div class="row">
+        <div class="col-md-4">
+            Usuario: @DadosUsuario.Nome
+            <br>
+            Receita: @DadosUsuario.Receita.ToString("0.00")
+        </div>
+    </div>
+
+    <br>
+
+    <h4>Lista de produtos à venda</h4>
+    <hr />
+
+    <form class="form-group" asp-action="Criar" method="get">
+        <input type="submit" value="Adicionar" class="btn btn-default" />
+    </form>
+
+    <table class="table justify-content-md-center">
+        <thead>
+            <tr>
+                <th scope="col">@Html.DisplayNameFor(model => model.ProdutoId)</th>
+                <th scope="col">@Html.DisplayNameFor(model => model.Nome)</th>
+                <th scope="col">@Html.DisplayNameFor(model => model.Preco)</th>
+                <th scope="col">Comprar</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td scope="row">@item.ProdutoId</td>
+                    <td>@item.Nome</td>
+                    <td>@item.Preco</td>
+                    <td><a asp-action="Detalhes" asp-route-id="@item.ProdutoId">Comprar</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>
